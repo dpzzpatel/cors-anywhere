@@ -1,19 +1,8 @@
 {
-  "name": "cors-anywhere",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "cors-anywhere": "^0.4.3"
   },
   "scripts": {
-    "start": "npm run server",
-    "server": "node node_modules/cors-anywhere/server.js"
+    "start": "node node_modules/cors-anywhere/server.js"
   }
 }
